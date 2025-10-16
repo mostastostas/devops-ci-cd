@@ -65,7 +65,6 @@ jobs:
         working-directory: ${{ env.BUILD_PATH }}
   build:
     name: Build
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
